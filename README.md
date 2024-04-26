@@ -1,29 +1,47 @@
 # vue-tailwindcss
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+# Installation Tailwindcss in Vue/Vite
+[Doc](https://tailwindcss.com/docs/guides/vite#vue)
 
-## Customize configuration
+# Content
+ - Utility classes
+## Colors
+ - [Doc](https://tailwindcss.com/docs/customizing-colors)
+## Customization
+ - Configuration
+ - Content
+ - Theme
+ - Screens
+ - Colors
+ - Spacing
+ - Plugins
+ - Preset
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Typography
 
-## Project Setup
+## Space & Sizes
 
-```sh
-npm install
-```
+## Flex
 
-### Compile and Hot-Reload for Development
+## Grids
 
-```sh
-npm run dev
-```
+## Layouts
 
-### Compile and Minify for Production
+## Borders
 
-```sh
-npm run build
-```
+## Effects & Filters
+
+## Animations
+
+## Design System
+
+## Core Concepts
+ - Adding Custom Styles
+ ```css
+ @layer {
+  
+ }
+ ```
+## Dark Mode

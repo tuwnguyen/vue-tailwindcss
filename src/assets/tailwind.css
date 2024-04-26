@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  html {
+    @apply bg-lime-400 text-white text-lg font-bold;
+  }
+}
