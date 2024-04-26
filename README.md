@@ -10,6 +10,7 @@
 ## Colors
  - [Doc](https://tailwindcss.com/docs/customizing-colors)
 ## Customization
+ - Should add property in extend object, not in theme, because it will override tailwindcss class
  - Configuration
  - Content
  - Theme
@@ -20,8 +21,24 @@
  - Preset
 
 ## Typography
-
-## Space & Sizes
+ - font...
+ - text...
+ - whitespace
+ - word break
+ - content (`after:content-['_↗'] `)
+ ...
+## Spacing & Sizing
+ - Space:
+  * Padding
+  * Margin
+  * Space Between
+ - Sizing:
+  * Width
+  * Min-Width
+  * Height
+  * Min-Height
+  * Size
+  ...
 
 ## Flex
 
@@ -41,7 +58,7 @@
  - Adding Custom Styles
  ```css
  @layer {
-  
+
  }
  ```
 ## Dark Mode

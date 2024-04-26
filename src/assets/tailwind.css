@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
 @layer {
   html {
     @apply bg-lime-400 text-white text-lg font-bold;
+    font-family: "Jersey 10", sans-serif;
   }
 }

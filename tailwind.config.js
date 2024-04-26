@@ -9,6 +9,11 @@ export default {
         lg: '976px',
         xl: '1440px',
       },
+      fontSize: {
+        xs: '12px',
+        sm: '15px',
+        base: '18px',
+      },
       spacing: {
         1: '8px',
         2: '12px',
