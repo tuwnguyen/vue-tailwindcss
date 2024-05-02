@@ -1,8 +1,12 @@
 <script setup>
+import UserProfile from './components/UserProfile.vue';
 
 </script>
 
 <template>
+  <div class="flex h-screen w-full bg-[#e6eefa] items-center justify-center">
+    <UserProfile />
+  </div>
   <!-- <h1 class="text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl border-vuejs-900 border-2">
     Hello world!
   </h1>
@@ -35,7 +39,7 @@
     </div>
   </div> -->
 
-  <div class="h-screen text-white bg-slate-600">
+  <!-- <div class="h-screen text-white bg-slate-600">
     <div class="container mx-auto">
       <div class="grid grid-cols-4 gap-4 md:grid-cols-2 lg:grid-cols-3">
         <div class="p-6 rounded-lg bg-sky-500">1</div>
@@ -46,5 +50,6 @@
         <div class="p-6 rounded-lg bg-sky-500">6</div>
       </div>
     </div>
-  </div>
+  </div> -->
+
 </template>

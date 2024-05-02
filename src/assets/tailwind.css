@@ -5,9 +5,9 @@
 @tailwind utilities;
 
 
-@layer {
+/* @layer {
   html {
     @apply bg-lime-400 text-white text-lg font-bold;
     font-family: "Jersey 10", sans-serif;
   }
-}
+} */
